@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`First snapshot test 1`] = `
+<div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="main"
+    >
+      <div
+        className="container container"
+      >
+        <div
+          className="row row"
+        >
+          <div
+            className="title-container col"
+          >
+            <div>
+              <h1
+                className="title-container__title"
+              >
+                Weather Finder
+              </h1>
+              <h3
+                className="title-container__subtitle"
+              >
+                Get the weather conditions for any location!
+              </h3>
+            </div>
+          </div>
+          <div
+            className="form-container col"
+          >
+            <div>
+              <form
+                onSubmit={[Function]}
+              >
+                <input
+                  name="city"
+                  placeholder="City..."
+                  type="text"
+                />
+                <input
+                  name="country"
+                  placeholder="Country..."
+                  type="text"
+                />
+                <button>
+                  Get Weather
+                </button>
+              </form>
+            </div>
+            <div
+              className="weather__info"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
